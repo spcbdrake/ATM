@@ -17,7 +17,7 @@ public class ATM {
         Scanner scanner = new Scanner(System.in);
         String option = "";
 
-        while (option.isEmpty() || option != "3") {
+        while (option.isEmpty() || !option.equals("3")) {
             while (name.isEmpty()){
                 System.out.println("What is your name?");
 
