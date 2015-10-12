@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Created by benjamindrake on 10/8/15.
  */
 public class ATM {
-    public static void run() throws Exception {
+    public static void main(String[] args) throws Exception {
 
 
         HashMap<String, Double> accounts = new HashMap();
